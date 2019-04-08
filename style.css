@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif;
+}
+
+.content-wrapper {
+    padding-top: 50px;
+}
+
+.slider-wrapper {
+    margin-left: -200px;
+    display: inline-block;
+    float: left;
+}
+
+.text-wrapper {
+    width: 35%;
+    display: inline-block;
+    float: right;
+}
+
+.slider {
+    display: block;
+}
+
+.slide {animation-timing-function: ease-in;}
+.slide {
+    position: relative;
+    overflow: hidden;
+    padding-left: 10px;
+    transition: 0.6s ease-in-out left !important;
+    display: inline-block;
+}
+.slide-down{
+    padding-left: 10px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide-directions {
+    display: inline-block;
+    float: right;
+}
+
+
+.slide-direction-button {
+    box-shadow: none;
+    border-radius: 10px;
+    background-color: white;
+    padding: 25px 30px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid #80808057;
+}
+
+.slide-direction-button:hover {
+    border: 1px solid #343f8f;
+    cursor: pointer;
+}
+
+.previous-direction {
+    background-image: url('content/arrow-gray-left.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.previous-direction:hover {
+    background-image: url('content/arrow-blue-left.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.next-direction {
+    background-image: url('content/arrow-gray-right.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.next-direction:hover {
+    background-image: url('content/arrow-blue-right.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.image-slide {
+    width: auto;
+    max-height: 200px;
+    border-radius: 10px;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-top: 0px;
+    color: #343f8f;
+}
+
+.section-text {
+    font-size: 25px;
+}
