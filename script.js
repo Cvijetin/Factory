@@ -3,7 +3,7 @@ var slidesDown = $('.slide-down');
 slides.first().before(slides.last());
 slidesDown.first().before(slidesDown.last());
 
-$('button').on('click', function () {
+$('button').click( function () {
     slides = $('.slide');
     var button = $(this);
     if (button.attr('id') == 'next') {
@@ -24,3 +24,4 @@ $('button').on('click', function () {
         slidesDown.first().before(slidesDown.last());
     }
 });
+
